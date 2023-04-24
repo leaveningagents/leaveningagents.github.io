@@ -1,0 +1,340 @@
+{
+    "agents": [
+        {
+            "id": 0,
+            "name": "Ammonium (Bi)Carbonate",
+            "other_names": ["Hartshorn", "Horn Salt", "Baker's Ammonia"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 1,
+            "name": "Ammonium Dihydrogen Phosphate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 2,
+            "name": "Ammonium Hydrogen Carbonate",
+            "other_names": ["Ammonium Bicarbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 3,
+            "name": "Ammonium Phosphate, Dibasic",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 4,
+            "name": "Ammonium Phosphate, Monobasic",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 5,
+            "name": "Baker's Ammonia",
+            "other_names": ["Ammonium (Bi)Carbonate", "Hartshorn", "Horn Salt"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 6,
+            "name": "Baking Powder",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 7,
+            "name": "Baking Soda",
+            "other_names": ["Sodium Bicarbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 8,
+            "name": "Barm",
+            "other_names": [],
+            "notes": "Used to Leaven Bread",
+            "type": "Biological"
+        },
+        {
+            "id": 9,
+            "name": "Beer",
+            "other_names": [],
+            "notes": "Uses Yeast in the Brewing Process",
+            "type": "Biological"
+        },
+        {
+            "id": 10,
+            "name": "Bicarbonate of Ammonia",
+            "other_names": ["Ammonium Bicarbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 11,
+            "name": "Buttermilk",
+            "other_names": [],
+            "notes": "",
+            "type": "Biological"
+        },
+        {
+            "id": 12,
+            "name": "Calcium Carbonate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 13,
+            "name": "Calcium Dihydrogen Phosphate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 14,
+            "name": "Calcium Phosphate, Monobasic",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 15,
+            "name": "Chorleywood Bread Process",
+            "other_names": [],
+            "notes": "This is a manual process that creates a leavening effect.*",
+            "type": "Mechanical"
+        },
+        {
+            "id": 16,
+            "name": "Cream of Tartar",
+            "other_names": ["Potassium Bitartrate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 17,
+            "name": "Creaming Process",
+            "other_names": [],
+            "notes": "This is a manual process that creates a leavening effect. If the intent is to cause the bread to rise, the goal should be to avoid it.",
+            "type": "Mechanical"
+        },
+        {
+            "id": 18,
+            "name": "Diacetyl Tartaric Acid Esters of Mono- and Diglycerides",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 19,
+            "name": "Diammonium Hydrogen Phosphate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 20,
+            "name": "Dipotassium Carbonate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 21,
+            "name": "Disodium Pyrophosphate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 22,
+            "name": "Ginger Beer",
+            "other_names": [],
+            "notes": "",
+            "type": "Biological"
+        },
+        {
+            "id": 23,
+            "name": "Glucono Delta-Lactone",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 24,
+            "name": "Glucono delta-Lactone",
+            "other_names": [],
+            "notes": "It appears that the lowercase 'd' in 'delta' makes this a different additive than the uppercase one.",
+            "type": "Chemical"
+        },
+        {
+            "id": 25,
+            "name": "Hartshorn",
+            "other_names": ["Ammonium (Bi)Carbonate", "Horn Salt", "Baker's Ammonia"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 26,
+            "name": "Horn Salt",
+            "other_names": ["Ammonium (Bi)Carbonate", "Horn Salt", "Baker's Ammonia"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 27,
+            "name": "Hydrogen Peroxide",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 28,
+            "name": "Kefir",
+            "other_names": [],
+            "notes": "",
+            "type": "Biological"
+        },
+        {
+            "id": 29,
+            "name": "Monocalcium Phosphate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 30,
+            "name": "Pearlash",
+            "other_names": ["Potassium Carbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 31,
+            "name": "Phosphates",
+            "other_names": [],
+            "notes": "Anything with 'phosph' in the name",
+            "type": "Chemical"
+        },
+        {
+            "id": 32,
+            "name": "Popovers or any similar light hollow rolls",
+            "other_names": [],
+            "notes": "In the process of making Popovers, steam and air are used as leavening agents.**",
+            "type": "Other"
+        },
+        {
+            "id": 33,
+            "name": "Potash",
+            "other_names": ["Potassium (Bi)Carbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 34,
+            "name": "Potassium Acid Carbonate",
+            "other_names": ["Potassium (Bi)Carbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 35,
+            "name": "Potassium (Bi)Carbonate",
+            "other_names": ["Potash"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 36,
+            "name": "Potassium Bitartrate",
+            "other_names": ["Cream of Tartar"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 37,
+            "name": "Potassium Carbonate",
+            "other_names": ["Pearlash"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 38,
+            "name": "Potassium Hydrogen Carbonate",
+            "other_names": ["Potassium Bicarbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 39,
+            "name": "Powdered Baking Ammonia",
+            "other_names": ["Ammonium Bicarbonate"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 40,
+            "name": "Sodium Acid Pyrophosphate (SAPP)",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 41,
+            "name": "Sodium Aluminum Phosphate [Acidic] (SALP)",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 42,
+            "name": "Sodium Bicarbonate",
+            "other_names": ["Baking Soda"],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 43,
+            "name": "Sodium Hydrogen Carbonate",
+            "other_names": [],
+            "notes": "",
+            "type": "Chemical"
+        },
+        {
+            "id": 44,
+            "name": "Sourdough Starter",
+            "other_names": [],
+            "notes": "",
+            "type": "Biological"
+        },
+        {
+            "id": 45,
+            "name": "Tempura",
+            "other_names": [],
+            "notes": "In the process of making Tempura, steam and air are used as leavening agents.**",
+            "type": "Other"
+        },
+        {
+            "id": 46,
+            "name": "Whip Cream or similar 'high pressure fluff' products",
+            "other_names": [],
+            "notes": "In the process of expelling the Whip Cream from the can, the high pressure causes a leavening effect through the butterfat of the cream.**",
+            "type": "Other"
+        },
+        {
+            "id": 47,
+            "name": "Yeast",
+            "other_names": [],
+            "notes": "The original leavening agent. It causes bread to rise.",
+            "type": "Biological"
+        }
+    ]
+}
