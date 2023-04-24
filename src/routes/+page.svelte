@@ -29,10 +29,10 @@
         {#if isDarkTheme }<img class="w-4 h-4" src="moon.svg" alt="dark theme"/>{:else}<img class="w-5 h-5" src="brightness-high.svg" alt="light theme"/>{/if}
         <span class="hidden sm:block sm:ml-2"> Theme</span>
       </button>
-      <button class="flex py-3 px-4 rounded-full shadow-light dark:shadow-dark dark:bg-dark-24 text-light-43 dark:text-dark-90 font-medium ml-3">
+      <!-- <button class="flex py-3 px-4 rounded-full shadow-light dark:shadow-dark dark:bg-dark-24 text-light-43 dark:text-dark-90 font-medium ml-3">
         <span class="bg-accent rounded-full p-1"><img class="w-4 h-4" src="filetype-pdf.svg" alt="pdf"/></span> 
         <span class="hidden sm:block sm:ml-2"> Download</span>
-      </button>
+      </button> -->
     </div>
   </div>
   <div class="container max-w-4xl mx-auto px-6 pb-32">
