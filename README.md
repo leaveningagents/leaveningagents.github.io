@@ -7,9 +7,12 @@ Website for searching through a list of potential leavening agents to remove fro
 
 This site uses Svelte, Sveltekit, and Tailwindcss 3.
 
+
 ## Developing
 
-Install dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Install dependencies with `npm install` (or `pnpm install` or `yarn`).
+
+Start a development server:
 
 ```bash
 npm run dev
@@ -20,15 +23,14 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+To build for production:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
 ## License
 
