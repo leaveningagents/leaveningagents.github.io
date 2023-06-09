@@ -282,55 +282,62 @@
         },
         {
             "id": 40,
+            "name": "Pride",
+            "other_names": [],
+            "notes": "The leaven of pride: It makes you 'puffed up'.",
+            "type": "Attitude"
+        },
+        {
+            "id": 41,
             "name": "Sodium Acid Pyrophosphate (SAPP)",
             "other_names": [],
             "notes": "",
             "type": "Chemical"
         },
         {
-            "id": 41,
+            "id": 42,
             "name": "Sodium Aluminum Phosphate [Acidic] (SALP)",
             "other_names": [],
             "notes": "",
             "type": "Chemical"
         },
         {
-            "id": 42,
+            "id": 43,
             "name": "Sodium Bicarbonate",
             "other_names": ["Baking Soda"],
             "notes": "",
             "type": "Chemical"
         },
         {
-            "id": 43,
+            "id": 44,
             "name": "Sodium Hydrogen Carbonate",
             "other_names": [],
             "notes": "",
             "type": "Chemical"
         },
         {
-            "id": 44,
+            "id": 45,
             "name": "Sourdough Starter",
             "other_names": [],
             "notes": "",
             "type": "Biological"
         },
         {
-            "id": 45,
+            "id": 46,
             "name": "Tempura",
             "other_names": [],
             "notes": "In the process of making Tempura, steam and air are used as leavening agents.**",
             "type": "Other"
         },
         {
-            "id": 46,
+            "id": 47,
             "name": "Whip Cream or similar 'high pressure fluff' products",
             "other_names": [],
             "notes": "In the process of expelling the Whip Cream from the can, the high pressure causes a leavening effect through the butterfat of the cream.**",
             "type": "Other"
         },
         {
-            "id": 47,
+            "id": 48,
             "name": "Yeast",
             "other_names": [],
             "notes": "The original leavening agent. It causes bread to rise.",
