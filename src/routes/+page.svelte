@@ -41,14 +41,17 @@
       <h2 class="text-xl mt-4 text-light-53 dark:text-dark-80">Leavening agents that you may want to remove from your dwelling for Passover and the Feast of Unleavened Bread.</h2>
       <!-- Search bar -->
       <div class="flex flex-auto max-w-lg relative mt-10 mx-auto">
-        <input class="flex flex-auto w-full text-base md:text-lg text-light-43 dark:text-dark-90 dark:text-white bg-white dark:bg-dark-24 rounded-full pl-12 md:pl-14 pr-6 py-3.5 shadow-light dark:shadow-dark focus:border-light-53 focus:ring-0 focus:outline-none placeholder:text-light-80 placeholder:dark:text-dark-40 placeholder:font-medium" placeholder="Type to search" bind:value={searchTerms} on:input={searchAgents}>
+        <input class="flex flex-auto w-full text-base md:text-lg text-light-43 dark:text-dark-90 dark:text-white bg-white dark:bg-dark-24 rounded-full pl-12 md:pl-14 pr-6 py-3.5 shadow-light dark:shadow-dark focus:border-light-53 focus:ring-0 focus:outline-none placeholder:text-light-80 placeholder:dark:text-dark-40 placeholder:font-medium" placeholder="Type to search agents" bind:value={searchTerms} on:input={searchAgents}>
         <svg xmlns="http://www.w3.org/2000/svg" class="absolute inset-y-1 my-auto h-12 w-12 fill-light-53 dark:fill-dark-80 px-3.5 ml-2" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="search"><rect width="24" height="24" opacity="0"/><path d="M20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"/></g></g></svg>
       </div>
     </div>
     <!-- Agents list -->
-    {#each Object.values(filteredAgents) as agent (agent.id)}
-      <Agent agent={agent}/>
-    {/each}
+    <div class="static mt-10">
+      <img class="relative fixed top-2 lg:top-4 -left-6 lg:-left-16 w-auto h-auto" src="prompt.svg" alt="Cross off items as you go!"/>
+      {#each Object.values(filteredAgents) as agent (agent.id)}
+        <Agent agent={agent}/>
+      {/each}
+    </div>
   </div>
   <!-- Footer -->
   <footer class="flex text-center py-8 px-6 mt-10">

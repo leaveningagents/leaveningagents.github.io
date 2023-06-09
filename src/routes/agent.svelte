@@ -12,8 +12,8 @@
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
-<div id="id{agent.id}" class="flex cursor-pointer" on:click={toggleDone}>
-  <div class="flex flex-row align-center mt-20">
+<div id="id{agent.id}" class="flex cursor-pointer {agent.id != 0 ? 'mt-10' : ''}" on:click={toggleDone}>
+  <div class="flex flex-row align-center">
     <div class="flex">
       <span class="w-4 h-4 rounded-full mt-3 mr-6 {indicatorDoneClasses}"></span>
     </div>
