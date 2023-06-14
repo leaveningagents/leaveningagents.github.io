@@ -1,11 +1,11 @@
 # Potential Leavening Agents
 
-Website for searching through a list of potential leavening agents to remove from your dwelling during Passover and the Feast of Unleavened Bread.
+A website for searching through a list of potential leavening agents to remove from your dwelling during Passover and the Feast of Unleavened Bread (Exodus 12).
 
 
 ## Tech
 
-This site uses Svelte, Sveltekit, and Tailwindcss 3.
+This site is built using Svelte, Sveltekit, and Tailwindcss 3.
 
 
 ## Developing
