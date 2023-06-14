@@ -55,6 +55,6 @@
   </div>
   <!-- Footer -->
   <footer class="flex text-center py-8 px-6 mt-10">
-    <small class="text-light-43 dark:text-dark-90 mx-auto">The <a class="text-light-43 dark:text-dark-80 underline duration-300 dark:hover:text-dark-80" href="https://github.com/leaveningagents">source code</a> for this site is open source on Github. &copy; 2023 </small>
+    <small class="text-light-43 dark:text-dark-90 mx-auto">&copy; 2023 <a class="text-light-43 dark:text-dark-80 underline duration-300 hover:text-accent dark:hover:text-accent" href="https://noahrahm.com">Noah Rahm</a>. The <a class="text-light-43 dark:text-dark-80 underline duration-300 hover:text-accent dark:hover:text-accent" href="https://github.com/leaveningagents">source code</a> for this site is open source on Github.</small>
   </footer>
 </div>
