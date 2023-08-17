@@ -47,7 +47,7 @@
     </div>
     <!-- Agents list -->
     <div class="static mt-10">
-      <img class="relative fixed top-2 lg:top-4 -left-6 lg:-left-16 w-auto h-auto" src="prompt.svg" alt="Cross off items as you go!"/>
+      <img class="relative top-2 lg:top-4 -left-6 lg:-left-16 w-auto h-auto" src="prompt.svg" alt="Cross off items as you go!"/>
       {#each Object.values(filteredAgents) as agent (agent.id)}
         <Agent agent={agent}/>
       {/each}
